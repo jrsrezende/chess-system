@@ -18,9 +18,9 @@ Este projeto implementa um sistema de xadrez em Java, jogável via terminal. O o
 
 ## 📁 Estrutura do projeto
 
-- src/application/Program.java: Ponto de entrada do sistema.
-- src/Chess/: Lógica principal do jogo e das peças.
-- src/UI.java: Interface de usuário via terminal.
+- `src/application/Program.java`: Ponto de entrada do sistema.
+- `src/Chess/`: Lógica principal do jogo e das peças.
+- `src/UI.java`: Interface de usuário via terminal.
 
 ## 🛠️ Requisitos
 
