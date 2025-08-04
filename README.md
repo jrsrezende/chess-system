@@ -1,15 +1,6 @@
-# ♟️ Chess System Java
+# ♟️ Chess System
 
-Projeto de um sistema de xadrez em Java, executado via terminal. Permite jogar uma partida completa de xadrez entre dois jogadores, com regras oficiais, movimentação das peças, promoção de peão, captura e verificação de xeque-mate
-
-## ✨ Funcionalidades
-
-- Exibição do tabuleiro e peças no terminal
-- Movimentação das peças conforme as regras do xadrez
-- Validação de movimentos e posições
-- Promoção de peão
-- Detecção de xeque e xeque-mate
-- Registro de peças capturadas
+Este projeto é um sistema de xadrez desenvolvido em Java para fins didáticos, permitindo jogar partidas de xadrez no console. O objetivo é praticar conceitos de orientação a objetos, tratamento de exceções e estruturação de projetos em camadas.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -24,6 +15,7 @@ Projeto de um sistema de xadrez em Java, executado via terminal. Permite jogar u
 
 ## 📁 Estrutura do projeto
 
-- `application/`: Ponto de entrada do sistema.
-- `BoardGame/`: Lógica principal do jogo e das peças.
-- `Chess/`: Interface de usuário via terminal.
+- `application/`: Contém a interface com o usuário (Program.java, UI.java), responsável pela interação via console.
+- `BoardGame/`: Implementa as classes genéricas do tabuleiro, peças e posições, além do tratamento de exceções relacionadas ao tabuleiro.
+- `Chess/`: Contém as regras específicas do xadrez, peças, lógica de movimentos, exceções e controle da partida.
+- `Chess/pieces/`: Implementa as classes das peças específicas do xadrez (Rei, Rainha, Torre, Bispo, Cavalo, Peão).
