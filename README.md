@@ -12,7 +12,8 @@ Este projeto implementa um sistema de xadrez em Java, jogável via terminal. O o
 
 ## 🛠️ Tecnologias
 
-- Java 
+- Java
+- IntelliJ IDEA
 
 ## 🚀 Como executar
 
