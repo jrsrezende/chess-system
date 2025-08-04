@@ -10,6 +10,10 @@ Este projeto implementa um sistema de xadrez em Java, jogável via terminal. O o
 - Promoção de peão
 - Registro de peças capturadas
 
+## 🛠️ Tecnologias
+
+- Java 
+
 ## 🚀 Como executar
 
 1. Clone o repositório: git clone https://github.com/jrsrezende/chess_system_java.git
@@ -21,11 +25,3 @@ Este projeto implementa um sistema de xadrez em Java, jogável via terminal. O o
 - `src/application/Program.java`: Ponto de entrada do sistema.
 - `src/Chess/`: Lógica principal do jogo e das peças.
 - `src/UI.java`: Interface de usuário via terminal.
-
-## 🛠️ Requisitos
-
-- Java 8 ou superior
-
-## 👤 Autor
-
-- [jrsrezende](https://github.com/jrsrezende)
