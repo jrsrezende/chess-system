@@ -13,7 +13,7 @@ Este projeto é um sistema de xadrez desenvolvido em Java para fins didáticos, 
 2. Execute o programa principal no terminal: java -cp src application.Program
 
 
-## Estrutura do projeto
+## Camadas do projeto
 
 - `application/`: Contém a interface com o usuário (Program.java, UI.java), responsável pela interação via console.
 - `BoardGame/`: Implementa as classes genéricas do tabuleiro, peças e posições, além do tratamento de exceções relacionadas ao tabuleiro.
