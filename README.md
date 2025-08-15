@@ -1,21 +1,29 @@
-# Chess System
+# chess-system-java
 
-Este projeto é um sistema de xadrez desenvolvido em Java para fins didáticos, permitindo jogar partidas de xadrez no console. O objetivo é praticar conceitos de orientação a objetos, tratamento de exceções e estruturação de projetos em camadas.
+## Descrição do Projeto
+Sistema de xadrez desenvolvido em Java para fins didáticos, permitindo jogar partidas de xadrez no terminal. O projeto simula as regras do jogo, movimentação das peças, captura, promoção de peões, xeque e xeque-mate.
+
+## Funcionalidades
+- Exibição do tabuleiro de xadrez no terminal com cores ANSI
+- Movimentação das peças conforme as regras oficiais
+- Validação de movimentos e posições
+- Captura de peças adversárias
+- Promoção de peões
+- Detecção de xeque e xeque-mate
+- Histórico de peças capturadas
 
 ## Tecnologias Utilizadas
+- Java (sem frameworks externos)
+- ANSI escape codes para colorização no terminal
 
-- Java
-- IntelliJ IDEA
+## Como Executar
+1. Clone o repositório: https://github.com/jrsrezende/chess-system.git
+2. Abra o projeto em sua IDE Java (ex: IntelliJ IDEA).
+3. Execute o arquivo src/application/Program.java.
+4. Siga as instruções no terminal para jogar.
 
-## Como executar
-
-1. Clone o repositório: git clone https://github.com/jrsrezende/chess-system.git
-2. Execute o programa principal no terminal: java -cp src application.Program
-
-
-## Camadas do projeto
-
-- `application/`: Contém a interface com o usuário (Program.java, UI.java), responsável pela interação via console.
-- `BoardGame/`: Implementa as classes genéricas do tabuleiro, peças e posições, além do tratamento de exceções relacionadas ao tabuleiro.
-- `Chess/`: Contém as regras específicas do xadrez, peças, lógica de movimentos, exceções e controle da partida.
-- `Chess/pieces/`: Implementa as classes das peças específicas do xadrez (Rei, Rainha, Torre, Bispo, Cavalo, Peão).
+## Camadas do Projeto
+- `application/`: Interface com o usuário e ponto de entrada do sistema.
+- `BoardGame/`: Estruturas genéricas para jogos de tabuleiro.
+- `Chess/`: Lógica específica do xadrez, incluindo regras e peças.
+- `Chess/pieces/`: Implementação das peças do xadrez.
