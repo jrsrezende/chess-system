@@ -1,6 +1,5 @@
-# chess-system-java
+# chess-system
 
-## Descrição do Projeto
 Sistema de xadrez desenvolvido em Java para fins didáticos, permitindo jogar partidas de xadrez no terminal. O projeto simula as regras do jogo, movimentação das peças, captura, promoção de peões, xeque e xeque-mate.
 
 ## Funcionalidades
