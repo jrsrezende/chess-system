@@ -17,9 +17,8 @@ Sistema de xadrez desenvolvido em Java para fins didáticos, permitindo jogar pa
 
 ## Como Executar
 1. Clone o repositório: https://github.com/jrsrezende/chess-system.git
-2. Abra o projeto em sua IDE Java (ex: IntelliJ IDEA).
-3. Execute o arquivo src/application/Program.java.
-4. Siga as instruções no terminal para jogar.
+2. Execute o arquivo src/application/Program.java.
+3. Siga as instruções no terminal para jogar.
 
 ## Camadas do Projeto
 - `application/`: Interface com o usuário e ponto de entrada do sistema.
