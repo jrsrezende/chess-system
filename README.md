@@ -19,14 +19,16 @@ The project was built without external frameworks to focus on **object-oriented 
 - Java (no external frameworks)
 - ANSI escape codes for terminal coloring
 
-## Requirements
-- Java 17+ (or compatible version)
-- Terminal/Command Prompt for running the program
-
 ## How to Run
 1. Clone the repository: https://github.com/jrsrezende/chess-system.git
-2. Compile the program: `javac -d out/production/chess-system -cp src src/application/Program.java`
-3. Run the program: `java -cp out/production/chess-system application.Program`
+2. Compile the program:
+```bash
+javac -d out/production/chess-system -cp src src/application/Program.java
+```
+3. Run the program:
+```bash
+java -cp out/production/chess-system application.Program
+```
 4. Follow the instructions in the terminal to start playing
 
 ## Project Structure
